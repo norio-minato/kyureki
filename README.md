@@ -4,15 +4,18 @@ This php extension , to convert the Gregorian calendar in the Japanese calendar.
 
 ## INSTALL
 
+<code>
 phpize
 ./configure --enable-kyureki7 --with-php-config=/usr/local/bin/php-config CC=g++ CXX=g++
 make
 make install
+</code>
 
 ## USAGE
 
 ### Convert to Kyureki (Japanese old calendar).
 
+<code>
 $japanese_old_date = get_kyureki(1919, 11, 17);
 print_r($japanese_old_date); // return as array
 
@@ -20,11 +23,14 @@ $japanese_old_date[0] : year.
 $japanese_old_date[1] : month.
 $japanese_old_date[2] : mday.
 $japanese_old_date[0] : day of week.
+</code>
 
 ### How to get Rokuyou.
 
+<code>
 $rokuyou = get_rokuyou(2016, 1, 6);
 echo $rokuyou;
+</code>
 
 0: Taian (大安)
 1: Shakkō (赤口)
@@ -32,6 +38,7 @@ echo $rokuyou;
 3: Tomobiki (友引)
 4: Senbu (先負)
 5: Butsumetsu (仏滅)
+
 
 ## What is Rokuyo
 
