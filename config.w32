@@ -1,0 +1,13 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("kyureki", "for kyureki support", "no");
+
+// Otherwise, use ARG_ENABLE
+// ARG_ENABLE("kyureki", "enable kyureki support", "no");
+
+if (PHP_KYUREKI != "no") {
+	EXTENSION("kyureki", "kyureki.c", PHP_EXTNAME_SHARED, "/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1");
+}
+
