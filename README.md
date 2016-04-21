@@ -1,4 +1,4 @@
-# Kyureki (PHP extention)
+# Kyureki (PHP extention) php7 correspondence.
 
 This php extension , to convert the Gregorian calendar in the Japanese calendar.
 
