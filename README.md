@@ -13,7 +13,7 @@ make install
 
 ## USAGE
 
-### Convert to Kyureki (Japanese old calendar).
+### Convert to Kyureki (Japanese old calendar)
 
 <code><pre>
 $japanese_old_date = get_kyureki(1919, 11, 17);
@@ -25,7 +25,7 @@ $japanese_old_date[2] : mday.
 $japanese_old_date[0] : day of week.
 </pre></code>
 
-### How to get Rokuyou.
+### How to get Rokuyou
 
 <code><pre>
 $rokuyou = get_rokuyou(2016, 1, 6);
